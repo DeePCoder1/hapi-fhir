@@ -142,7 +142,7 @@ public class JpaServerDemo extends RestfulServer {
 		 * this doesn't always work. If you are setting links in your search bundles that
 		 * just refer to "localhost", you might want to use a server address strategy:
 		 */
-		//setServerAddressStrategy(new HardcodedServerAddressStrategy("http://mydomain.com/fhir/baseDstu2"));
+		////setServerAddressStrategy(new HardcodedServerAddressStrategy("http://mydomain.com/fhir/baseDstu2"));
 		
 		/*
 		 * If you are using DSTU3+, you may want to add a terminology uploader, which allows 
